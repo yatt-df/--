@@ -1,0 +1,36 @@
+#这是帮助您开始行动的基本工作流程
+
+名称:CI
+
+#控制工作流运行的时间
+开启:
+#在推或拉请求事件时触发工作流，但仅限于“主”分支
+推送:
+分支:[ "主要" ]
+拉取请求:
+分支:[ "主要" ]
+
+#允许您从“操作”选项卡手动运行此工作流
+工作流_调度:
+
+#工作流运行由一个或多个可以顺序或并行运行的作业组成
+工作:
+#此工作流包含一个名为“构建”的作业
+构建:
+#将运行作业的运行程序的类型
+运行:Ubuntu-最新版
+
+#步骤表示将作为作业的一部分执行的一系列任务
+步伐:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
