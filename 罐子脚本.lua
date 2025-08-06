@@ -39,7 +39,37 @@ credits:Toggle("脚本框架变小一点", "", false, function(state)
 local creds = window:Tab("常用",'6031097229')
    local credits = creds:section("通用",true)
    
-feng:Button("铁拳",function()
+credits:Button("铁拳",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'))()
+end)
+
+credits:Button("光影",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/arzRCgwS'))()
+end)
+
+credits:Button("光影二",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/MZEEN2424/Graphics/main/Graphics.xml'))()
+end)
+
+credits:Button("建筑工具",function()
+    loadstring(game:HttpGet('Hammer = Instance.new("HopperBin")
+		Hammer.Name = "锤子"
+		Hammer.BinType = 4
+		Hammer.Parent = game.Players.LocalPlayer.Backpack
+		Clone = Instance.new("HopperBin")
+		Clone.Name = "克隆"
+		Clone.BinType = 3
+		Clone.Parent = game.Players.LocalPlayer.Backpack
+		Grab = Instance.new("HopperBin")
+		Grab.Name = "抓取"
+		Grab.BinType = 2'))()
+end)
+
+credits:Button("",function()
+    loadstring(game:HttpGet(''))()
+end)
+
+credits:Button("",function()
+    loadstring(game:HttpGet(''))()
 end)
     
