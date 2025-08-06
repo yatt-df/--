@@ -51,17 +51,3 @@ credits:Button("光影二",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/MZEEN2424/Graphics/main/Graphics.xml'))()
 end)
 
-credits:Button("建筑工具",function()
-    loadstring(game:HttpGet('Hammer = Instance.new("HopperBin")
-		Hammer.Name = "锤子"
-		Hammer.BinType = 4
-		Hammer.Parent = game.Players.LocalPlayer.Backpack
-		Clone = Instance.new("HopperBin")
-		Clone.Name = "克隆"
-		Clone.BinType = 3
-		Clone.Parent = game.Players.LocalPlayer.Backpack
-		Grab = Instance.new("HopperBin")
-		Grab.Name = "抓取"
-		Grab.BinType = 2'))()
-end)
-
