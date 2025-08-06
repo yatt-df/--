@@ -65,11 +65,3 @@ credits:Button("建筑工具",function()
 		Grab.BinType = 2'))()
 end)
 
-credits:Button("",function()
-    loadstring(game:HttpGet(''))()
-end)
-
-credits:Button("",function()
-    loadstring(game:HttpGet(''))()
-end)
-    
